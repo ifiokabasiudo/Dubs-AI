@@ -1,0 +1,28 @@
+{
+  "name": "dubs",
+  "version": "1.0.0",
+  "description": "My AI answering project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifiokabasiudo/Dubs-latest.git"
+  },
+  "author": "Ifiok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifiokabasiudo/Dubs-latest/issues"
+  },
+  "homepage": "https://github.com/ifiokabasiudo/Dubs-latest#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "next": "^13.2.3",
+    "openai": "^3.2.1",
+    "react": "^18.2.0"
+  }
+}
