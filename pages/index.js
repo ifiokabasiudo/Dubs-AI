@@ -97,7 +97,7 @@ export default function Home() {
                         value={firstQuestion}
                         onChange={(e) => nextQuestion(e.target.value)}
                       />
-                      <input type="submit" value="Answers" className="btn btn-outline-light btn-edit"/>
+                      <input type="submit" value="Send" className="btn btn-outline-light btn-edit"/>
                       {isLoading && <div className="loader">Processing...</div>}
                     </form>
                   </div>
